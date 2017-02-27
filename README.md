@@ -1,2 +1,2 @@
-# miroblog
+# microblog
 personal blog
