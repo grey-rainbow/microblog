@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Classify</title>
+    <link href="css/microblog.css" type="text/css" rel="stylesheet">
+    <link href="css/classify.css" type="text/css" rel="stylesheet">
+    <script src="node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
+    <script src="JavaScript/Classify.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div id="classify-bar" class="rbar"  onclick="window.location.href='classify.html'">
+    <p>CLASSIFY</p>
+</div>
+
+<div id="projects-bar" class="cbar"  onclick="window.location.href='#'">
+    <p>PROJECTS</p>
+</div>
+
+<div id="home-bar" class="cbar" onclick="window.location.href='Home.html'">
+    <p>HOME</p>
+</div>
+
+<div id="blog">
+    <div id="classify">
+        <ul>
+            <li id="HTML&CSS" class="tag_active" onclick="change_color(this)">HTML & CSS</li>
+            <li id="JavaScript" class="tag" onclick="change_color(this)">JavaScript</li>
+            <li id="C/C++" class="tag" onclick="change_color(this)">C/C++</li>
+            <li id="Others" class="tag" onclick="change_color(this)">Others</li>
+        </ul>
+    </div>
+
+    <div class="exhibiton" id="HTML&CSS_exhibition">
+        <div class="exhibition_row">
+            <div class="box firstBox">
+                <h1>Sample Box</h1>
+                <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP%2F%2F%2FwAAACwAAAAAAQABAEACAkQBADs%3D" width="70%" data-src="./image/0212.jpg" style="margin-top: 1em;">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nam luctus consectetur dolor a porttitor.
+                    Curabitur id sem sed ante fringilla pulvinar et id lectus.
+                    Nullam justo ipsum, hendrerit ut commodo nec, pellentesque nec erat.
+                    Pellentesque pharetra.
+                </p>
+                <a href="#">READ MORE</a>
+                <div class="fold_box"></div>
+                <div class="fold_box"></div>
+                <div class="box_ribbon"></div>
+            </div>
+            <div class="exhibition_row">
+                <div class="box secondBox">
+                    <h1>Sample Box</h1>
+                    <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP%2F%2F%2FwAAACwAAAAAAQABAEACAkQBADs%3D" width="70%" data-src="./image/0212.jpg" style="margin-top: 1em;">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nam luctus consectetur dolor a porttitor.
+                        Curabitur id sem sed ante fringilla pulvinar et id lectus.
+                        Nullam justo ipsum, hendrerit ut commodo nec, pellentesque nec erat.
+                        Pellentesque pharetra.
+                    </p>
+                    <a href="#">READ MORE</a>
+                    <div class="fold_box"></div>
+                    <div class="fold_box"></div>
+                    <div class="box_ribbon"></div>
+                </div>
+            </div>
+            <div class="exhibition_row">
+                <div class="box thirdBox">
+                    <h1>Sample Box</h1>
+                    <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP%2F%2F%2FwAAACwAAAAAAQABAEACAkQBADs%3D" width="70%" data-src="./image/0212.jpg" style="margin-top: 1em;">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nam luctus consectetur dolor a porttitor.
+                        Curabitur id sem sed ante fringilla pulvinar et id lectus.
+                        Nullam justo ipsum, hendrerit ut commodo nec, pellentesque nec erat.
+                        Pellentesque pharetra.
+                    </p>
+                    <a href="#">READ MORE</a>
+                    <div class="fold_box"></div>
+                    <div class="fold_box"></div>
+                    <div class="box_ribbon"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="exhibiton" id="JavaScript_exhibition" style="display: none">
+        <div class="exhibition_row">
+            <div class="box firstBox">
+                <h1>Sample Box</h1>
+                <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP%2F%2F%2FwAAACwAAAAAAQABAEACAkQBADs%3D" width="70%" data-src="./image/0212.jpg" style="margin-top: 1em;">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nam luctus consectetur dolor a porttitor.
+                    Curabitur id sem sed ante fringilla pulvinar et id lectus.
+                    Nullam justo ipsum, hendrerit ut commodo nec, pellentesque nec erat.
+                    Pellentesque pharetra.
+                </p>
+                <a href="#">READ MORE</a>
+                <div class="fold_box"></div>
+                <div class="fold_box"></div>
+                <div class="box_ribbon"></div>
+            </div>
+            <div class="exhibition_row">
+                <div class="box secondBox">
+                    <h1>Sample Box</h1>
+                    <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP%2F%2F%2FwAAACwAAAAAAQABAEACAkQBADs%3D" width="70%" data-src="./image/0212.jpg" style="margin-top: 1em;">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nam luctus consectetur dolor a porttitor.
+                        Curabitur id sem sed ante fringilla pulvinar et id lectus.
+                        Nullam justo ipsum, hendrerit ut commodo nec, pellentesque nec erat.
+                        Pellentesque pharetra.
+                    </p>
+                    <a href="#">READ MORE</a>
+                    <div class="fold_box"></div>
+                    <div class="fold_box"></div>
+                    <div class="box_ribbon"></div>
+                </div>
+            </div>
+            <div class="exhibition_row">
+                <div class="box thirdBox">
+                    <h1>Sample Box</h1>
+                    <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP%2F%2F%2FwAAACwAAAAAAQABAEACAkQBADs%3D" width="70%" data-src="./image/0212.jpg" style="margin-top: 1em;">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nam luctus consectetur dolor a porttitor.
+                        Curabitur id sem sed ante fringilla pulvinar et id lectus.
+                        Nullam justo ipsum, hendrerit ut commodo nec, pellentesque nec erat.
+                        Pellentesque pharetra.
+                    </p>
+                    <a href="#">READ MORE</a>
+                    <div class="fold_box"></div>
+                    <div class="fold_box"></div>
+                    <div class="box_ribbon"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="exhibiton" id="C/C++_exhibition" style="display: none">
+        <div class="exhibition_row">
+            <div class="box firstBox">
+                <h1>Sample Box</h1>
+                <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP%2F%2F%2FwAAACwAAAAAAQABAEACAkQBADs%3D" width="70%" data-src="./image/0212.jpg" style="margin-top: 1em;">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nam luctus consectetur dolor a porttitor.
+                    Curabitur id sem sed ante fringilla pulvinar et id lectus.
+                    Nullam justo ipsum, hendrerit ut commodo nec, pellentesque nec erat.
+                    Pellentesque pharetra.
+                </p>
+                <a href="#">READ MORE</a>
+                <div class="fold_box"></div>
+                <div class="fold_box"></div>
+                <div class="box_ribbon"></div>
+            </div>
+            <div class="exhibition_row">
+                <div class="box secondBox">
+                    <h1>Sample Box</h1>
+                    <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP%2F%2F%2FwAAACwAAAAAAQABAEACAkQBADs%3D" width="70%" data-src="./image/0212.jpg" style="margin-top: 1em;">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nam luctus consectetur dolor a porttitor.
+                        Curabitur id sem sed ante fringilla pulvinar et id lectus.
+                        Nullam justo ipsum, hendrerit ut commodo nec, pellentesque nec erat.
+                        Pellentesque pharetra.
+                    </p>
+                    <a href="#">READ MORE</a>
+                    <div class="fold_box"></div>
+                    <div class="fold_box"></div>
+                    <div class="box_ribbon"></div>
+                </div>
+            </div>
+            <div class="exhibition_row">
+                <div class="box thirdBox">
+                    <h1>Sample Box</h1>
+                    <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP%2F%2F%2FwAAACwAAAAAAQABAEACAkQBADs%3D" width="70%" data-src="./image/0212.jpg" style="margin-top: 1em;">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nam luctus consectetur dolor a porttitor.
+                        Curabitur id sem sed ante fringilla pulvinar et id lectus.
+                        Nullam justo ipsum, hendrerit ut commodo nec, pellentesque nec erat.
+                        Pellentesque pharetra.
+                    </p>
+                    <a href="#">READ MORE</a>
+                    <div class="fold_box"></div>
+                    <div class="fold_box"></div>
+                    <div class="box_ribbon"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="exhibiton" id="Others_exhibition" style="display: none">
+        <div class="exhibition_row">
+            <div class="box firstBox">
+                <h1>Sample Box</h1>
+                <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP%2F%2F%2FwAAACwAAAAAAQABAEACAkQBADs%3D" width="70%" data-src="./image/0212.jpg" style="margin-top: 1em;">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nam luctus consectetur dolor a porttitor.
+                    Curabitur id sem sed ante fringilla pulvinar et id lectus.
+                    Nullam justo ipsum, hendrerit ut commodo nec, pellentesque nec erat.
+                    Pellentesque pharetra.
+                </p>
+                <a href="#">READ MORE</a>
+                <div class="fold_box"></div>
+                <div class="fold_box"></div>
+                <div class="box_ribbon"></div>
+            </div>
+            <div class="exhibition_row">
+                <div class="box secondBox">
+                    <h1>Sample Box</h1>
+                    <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP%2F%2F%2FwAAACwAAAAAAQABAEACAkQBADs%3D" width="70%" data-src="./image/0212.jpg" style="margin-top: 1em;">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nam luctus consectetur dolor a porttitor.
+                        Curabitur id sem sed ante fringilla pulvinar et id lectus.
+                        Nullam justo ipsum, hendrerit ut commodo nec, pellentesque nec erat.
+                        Pellentesque pharetra.
+                    </p>
+                    <a href="#">READ MORE</a>
+                    <div class="fold_box"></div>
+                    <div class="fold_box"></div>
+                    <div class="box_ribbon"></div>
+                </div>
+            </div>
+            <div class="exhibition_row">
+                <div class="box thirdBox">
+                    <h1>Sample Box</h1>
+                    <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP%2F%2F%2FwAAACwAAAAAAQABAEACAkQBADs%3D" width="70%" data-src="./image/0212.jpg" style="margin-top: 1em;">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nam luctus consectetur dolor a porttitor.
+                        Curabitur id sem sed ante fringilla pulvinar et id lectus.
+                        Nullam justo ipsum, hendrerit ut commodo nec, pellentesque nec erat.
+                        Pellentesque pharetra.
+                    </p>
+                    <a href="#">READ MORE</a>
+                    <div class="fold_box"></div>
+                    <div class="fold_box"></div>
+                    <div class="box_ribbon"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div id="contact-bar" class="rbar"  onclick="window.location.href='#'">
+    <p>CONTACT</p>
+</div>
+
+</body>
+</html>

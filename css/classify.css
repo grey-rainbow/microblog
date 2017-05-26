@@ -1,0 +1,143 @@
+#projects-bar{
+    float: left;
+}
+
+#home-bar{
+    float: right;
+}
+
+#blog{
+    background-color: #cbcbcb;
+    width: 1280px;
+    height: 740px;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin: 0 80px;
+    text-align: center;
+}
+
+#classify {
+    text-align: center;
+}
+
+#classify >ul {
+    width: 56em;
+    height: 2em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#classify > ul >li{
+    margin: 0 2em;
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+    width: 10em;
+    height: 3em;
+    line-height: 3em;
+    font-weight: bold;
+}
+
+.tag{
+    color: white;
+    background-color: #cbcbcb;
+    cursor: url("../image/cursor.png"), pointer;
+}
+
+.tag_active {
+    color: white;
+    background-color: #c0c0c0;
+    cursor: url("../image/cursor.png"), pointer;
+}
+
+.box{
+    margin: 80px auto;
+    width: 300px;
+    min-height: 310px;
+    padding: 10px;
+    position:relative;
+    background: -webkit-linear-gradient(top, #fff 10%, #eee 50%);
+    background: -moz-linear-gradient(top, #fff 10%, #eee 50%);
+    background: -o-linear-gradient(top, #fff 10%, #eee 50%);
+    background: -ms-linear-gradient(top, #fff 10%, #eee 50%);
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom-right-radius: 60px 60px;
+    border-bottom-left-radius: 60px 60px;
+    box-shadow: -1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.box:before{
+    content:'';
+    width: 25px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    bottom:0; right:0;
+    background: -webkit-linear-gradient(top, #fff 10%, #eee 50%);
+    background: -moz-linear-gradient(top, #fff 10%, #eee 50%);
+    background: -o-linear-gradient(top, #fff 10%, #eee 50%);
+    background: -ms-linear-gradient(top, #fff 10%, #eee 50%);
+    border-bottom-right-radius: 30px;
+    box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.3);
+    transform: rotate(-20deg)
+    skew(-40deg,-3deg)
+    translate(-13px,-13px);
+}
+
+.fold_box{
+    width: 25px;
+    height: 20px;
+    z-index:20;
+    background: white;
+    position: absolute;
+    bottom:0; left:0;
+    background: -webkit-linear-gradient(top, #fff 10%, #eee 50%);
+    background: -moz-linear-gradient(top, #fff 10%, #eee 50%);
+    background: -o-linear-gradient(top, #fff 10%, #eee 50%);
+    background: -ms-linear-gradient(top, #fff 10%, #eee 50%);
+    border-bottom-right-radius: 30px;
+    box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.3);
+    transform: rotate(103deg)
+    skew(-3deg,-40deg)
+    translate(-13px,-15px);
+}
+
+.box_ribbon{
+    content: '';
+    position:absolute;
+    top:-25px; left: 30%;
+    width: 130px;
+    height: 40px;
+    background: -webkit-gradient(linear, 555% 20%, 0% 92%, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.0)), color-stop(.1,rgba(0, 0, 0, 0.2)));
+    border-left: 1px dashed rgba(0, 0, 0, 0.1);
+    border-right: 1px dashed rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+}
+.box img {
+    width: 100%;
+}
+
+.exhibiton .box> h1 {
+    font-weight: bold;
+    margin-top: 5px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.box>p {
+    text-align: justify;
+}
+
+.box>a {
+    color: #000;
+}
+
+.firstBox {
+    float: left;
+    margin: 0 60px;
+}
+
+.secondBox {
+    float: right;
+    margin: 0 60px;
+}

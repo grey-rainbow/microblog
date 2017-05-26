@@ -1,0 +1,95 @@
+#classify-bar{
+    float: left;
+}
+
+#contact-bar{
+    float: right;
+}
+
+#blog{
+    background-color: #cbcbcb;
+    width: 1280px;
+    height: 740px;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin: 0 80px;
+}
+
+#timeLine {
+    position: relative;
+}
+
+.timeLine-block:nth-child(even) .timeLine-content{
+    float: left;
+    text-align: right;
+}
+
+.timeLine-block:nth-child(odd) .timeLine-content{
+    float: right;
+}
+
+#timeLine::before {
+    content: "";
+    position: absolute;
+    top:0;
+    height: 100%;
+    width: 6px;
+    left: 50%;
+    background: -webkit-linear-gradient(left,  #cbcbcb, black 50%, #cbcbcb);
+    background: -moz-linear-gradient(left, #cbcbcb, black 50%, #cbcbcb);
+    background: -o-linear-gradient(left, #cbcbcb, black 50%, #cbcbcb);
+    background: -ms-linear-gradient(left, #cbcbcb, black 50%, #cbcbcb);
+}
+
+.timeLine-block {
+    position: relative;
+    margin: 2em 2em;
+}
+
+.timeLine-block::before {
+    content: "";
+    position: absolute;
+    left: 49.5%;
+    border-radius: 0.5em;
+    width:  0.5em;
+    height:  0.5em;
+    border:6px solid #cbcbcb;
+}
+
+.timeLine-content {
+    width: 45%;
+}
+
+.timeLine-content > p {
+    color: #616161;
+}
+
+.timeLine-content::before {
+    content: "";
+    position: absolute;
+    height: 6px;
+    width: 2.7em;
+    background: -webkit-linear-gradient(top,  #cbcbcb, black 50%, #cbcbcb);
+    background: -moz-linear-gradient(top,  #cbcbcb, black 50%, #cbcbcb);
+    background: -o-linear-gradient(top,  #cbcbcb, black 50%, #cbcbcb);
+    background: -ms-linear-gradient(top,  #cbcbcb, black 50%, #cbcbcb);
+    top: 7px;
+}
+
+.timeLine-block:nth-child(even) .timeLine-content::before{
+    left: 46%;
+}
+
+.timeLine-block:nth-child(odd) .timeLine-content::before{
+    left: 51%
+}
+
+.timeLine-block::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.read-more {
+    text-decoration: none;
+}

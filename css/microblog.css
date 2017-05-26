@@ -1,0 +1,63 @@
+html{
+    background-color: white;
+}
+
+body{
+    background: #c0c0c0;
+    width: 1440px;
+    height: 900px;
+    margin: 0 auto;
+    font-family: "Product Sans";
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.rbar{
+    height: 80px;
+    width: auto;
+    font-size: 46px;
+    text-align: center;
+}
+
+.rbar>p{
+    color: white;
+    margin: 0 auto;
+    line-height: 80px;
+}
+
+
+.rbar, .cbar{
+    cursor: url("../image/cursor.png"), pointer;
+}
+
+.cbar{
+    width: 80px;
+    height: 740px;
+    font-size: 46px;
+    text-align: center;
+}
+
+.cbar>p{
+    text-decoration: none;
+    width: auto;
+    height: 740px;
+    text-align: center;
+    margin: auto 0;
+    color: white;
+    line-height: 80px;
+    writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+    -moz-transform: rotate(90deg) translateX(-57px) translateY(330px);
+}

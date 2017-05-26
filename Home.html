@@ -3,8 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
+    <link href="css/Home.css" type="text/css" rel="stylesheet">
+    <link href="css/microblog.css" type="text/css" rel="stylesheet">
+    <script src="node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
+    <script src="JavaScript/Home.js"></script>
 </head>
 <body>
-<>
+
+<div id="home-bar" class="rbar" onclick="window.location.href='Home.html'">
+    <p>HOME</p>
+</div>
+
+<div id="classify-bar" class="cbar" onclick="window.location.href='classify.html'">
+    <p>CLASSIFY</p>
+</div>
+
+<div id="contact-bar" class="cbar" onclick="window.location.href='#'">
+    <p>CONTACT</p>
+</div>
+
+<div id="blog">
+    <div id="timeLine" class="container">
+        <div class="timeLine-block">
+            <div class="timeLine-content">
+                <a href="#" class="read-more" target="_blank">READ MORE&nbsp;&nbsp;</a>
+                <span class="cd-date">26.06.2017</span>
+                <img src="data:image/gif;base64,R0lGODdhAQABAPAAAP%2F%2F%2FwAAACwAAAAAAQABAEACAkQBADs%3D" width="70%" data-src="./image/0212.jpg" style="margin-top: 1em;">
+                <h2>HTML5 & CSS contribute time line</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nam luctus consectetur dolor a porttitor.
+                    Curabitur id sem sed ante fringilla pulvinar et id lectus.
+                    Nullam justo ipsum, hendrerit ut commodo nec, pellentesque nec erat.
+                    Pellentesque pharetra.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="project-bar" class="rbar" onclick="window.location.href='#'">
+    <p>PROJECTS</p>
+</div>
+
+
 </body>
 </html>
