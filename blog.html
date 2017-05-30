@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>blog</title>
+    <link href="css/blog.css" type="text/css" rel="stylesheet">
+    <link href="css/microblog.css" type="text/css" rel="stylesheet">
+    <script src="node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
+    <script src="JavaScript/blog.js"></script>
+    <link href="node_modules/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+<div id="home-bar" class="rbar" onclick="window.location.href='Home.html'">
+    <p>HOME</p>
+</div>
+
+<div id="classify-bar" class="cbar" onclick="window.location.href='classify.html'">
+    <p>CLASSIFY</p>
+</div>
+
+<div id="collection-bar" class="cbar" onclick="window.location.href='collection.html'">
+    <p>COLLECTIONS</p>
+</div>
+
+<div class="blog">
+    <div id="blog-comment">
+        <i class="fa fa-bars fa-lg" onclick="barExpanded()"></i>
+        <div class="comment-box" style="display: none;">
+            <p class="comment-title" style="text-align: center;"><i class="fa fa-comment fa-lg">&nbsp;COMMENTS</i></p>
+            <div class="comment-body">
+                <div class="comments">
+                    <time><i class="fa fa-clock-o">&nbsp;2017/5/30</i></time>
+                    <p><i class="fa fa-comment">&nbsp;this is my first comment and i want to find some bugs</i></p>
+                    <p style="text-align: right"><i class="fa fa-envelope">&nbsp;hzeng1998@gmail.com</i></p>
+                </div>
+                <div class="comments">
+                    <time><i class="fa fa-clock-o">&nbsp;2017/5/30</i></time>
+                    <p><i class="fa fa-comment">&nbsp;this is my first comment and i want to find some bugs</i></p>
+                    <p style="text-align: right"><i class="fa fa-envelope">&nbsp;hzeng1998@gmail.com</i></p>
+                </div>
+                <div class="comments">
+                    <time><i class="fa fa-clock-o">&nbsp;2017/5/30</i></time>
+                    <p><i class="fa fa-comment">&nbsp;this is my first comment and i want to find some bugs</i></p>
+                    <p style="text-align: right"><i class="fa fa-envelope">&nbsp;hzeng1998@gmail.com</i></p>
+                </div>
+                <div class="comments">
+                    <time><i class="fa fa-clock-o">&nbsp;2017/5/30</i></time>
+                    <p><i class="fa fa-comment">&nbsp;this is my first comment and i want to find some bugs</i></p>
+                    <p style="text-align: right"><i class="fa fa-envelope">&nbsp;hzeng1998@gmail.com</i></p>
+                </div>
+                <div class="comments">
+                    <time><i class="fa fa-clock-o">&nbsp;2017/5/30</i></time>
+                    <p><i class="fa fa-comment">&nbsp;this is my first comment and i want to find some bugs</i></p>
+                    <p style="text-align: right"><i class="fa fa-envelope">&nbsp;hzeng1998@gmail.com</i></p>
+                </div>
+                <div class="comments">
+                    <time><i class="fa fa-clock-o">&nbsp;2017/5/30</i></time>
+                    <p><i class="fa fa-comment">&nbsp;this is my first comment and i want to find some bugs</i></p>
+                    <p style="text-align: right"><i class="fa fa-envelope">&nbsp;hzeng1998@gmail.com</i></p>
+                </div>
+
+                <div class="comments">
+                    <time><i class="fa fa-clock-o">&nbsp;2017/5/30</i></time>
+                    <p><i class="fa fa-comment">&nbsp;this is my first comment and i want to find some bugs</i></p>
+                    <p style="text-align: right"><i class="fa fa-envelope">&nbsp;hzeng1998@gmail.com</i></p>
+                </div>
+            </div>
+            <form action="#" method="post" id="comment-new">
+                <div class="input-comments" contenteditable="true" placeholder="&nbsp;输入评论"></div>
+                <input name="newcomments" type="hidden" id="newcomment" value="">
+                <div class="input-address" contenteditable="true" placeholder="&nbsp;如果需要联系，请留下邮箱"></div>
+                <input name="contact" type="hidden" id="contactaddress" value="">
+                <input type="button" value="SUBMIT" onclick="submitComments()" class="button submit">
+            </form>
+        </div>
+    </div>
+    <div id="blog-article">
+    </div>
+</div>
+
+<div id="project-bar" class="rbar" onclick="window.location.href='project.html'">
+    <p>PROJECTS</p>
+</div>
+</body>
+</html>

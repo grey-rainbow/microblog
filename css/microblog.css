@@ -10,18 +10,8 @@ body{
     font-family: "Product Sans";
 }
 
-a:link {
-    color: white;
+a{
     text-decoration: none;
-}
-
-a:visited {
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-    color: white;
 }
 
 .rbar{
@@ -60,4 +50,21 @@ a:hover {
     writing-mode: vertical-lr;
     -ms-writing-mode: tb-lr;
     -moz-transform: rotate(90deg) translateX(-57px) translateY(330px);
+}
+
+.blog{
+    background-color: #cbcbcb;
+    width: 1280px;
+    height: 740px;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin: 0 80px;
+    text-align: center;
+}
+
+.button {
+    width: 8em;
+    height: 2em;
+    border-radius: 1em;
+    outline: none;
 }

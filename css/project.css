@@ -1,0 +1,38 @@
+#collection-bar{
+    float: left;
+}
+
+#classify-bar{
+    float: right;
+}
+
+#contact{
+    width: 300px;
+    height: 350px;
+    background: white;
+    box-shadow: 2px 2px 4px 0 #1c1f2b;
+    margin: 20px;
+    text-align: left;
+    padding: 20px;
+    float: left;
+}
+
+#contact>h1 {
+    font-size: 1.5em;
+    border-bottom: 1px solid #000000;
+}
+
+.projects{
+    width: 800px;
+    height: auto;
+    text-align: left;
+    margin-left: 416px;
+}
+
+.introduction{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 4px 0 #1c1f2b;
+    margin-bottom: 20px;
+}

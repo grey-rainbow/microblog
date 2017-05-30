@@ -1,18 +1,23 @@
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
 #classify-bar{
     float: left;
 }
 
-#contact-bar{
+#collection-bar{
     float: right;
-}
-
-#blog{
-    background-color: #cbcbcb;
-    width: 1280px;
-    height: 740px;
-    overflow: scroll;
-    overflow-x: hidden;
-    margin: 0 80px;
 }
 
 #timeLine {
@@ -26,6 +31,7 @@
 
 .timeLine-block:nth-child(odd) .timeLine-content{
     float: right;
+    text-align: left;
 }
 
 #timeLine::before {
