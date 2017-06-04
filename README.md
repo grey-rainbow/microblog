@@ -1,2 +1,2 @@
 # microblog
-Personal blog
+This is the demo of my personal blog

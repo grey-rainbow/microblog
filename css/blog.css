@@ -19,13 +19,14 @@
 }
 
 .comment-box{
-    width: 350px;
+    width: 0;
     height: 620px;
     background: white;
     border-radius: 10px;
     margin: 20px;
     padding: 20px 0 20px 20px;
     opacity: 0.8;
+    transition: width 1s;
 }
 
 .comment-body{
@@ -85,10 +86,12 @@
     margin-top: 60px;
     margin-right: auto;
     margin-left: 216px;
-    width: 830px;
+    width: 790px;
     min-height: 1000px;
     background-color: white;
     border: 1px solid white;
     border-radius: 10px;
     transition: margin-left 1s;
+    text-align: left;
+    padding: 20px;
 }

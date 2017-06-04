@@ -96,6 +96,11 @@ a:hover {
     display: table;
 }
 
+.timeLine-content img {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
 .read-more {
     text-decoration: none;
 }
